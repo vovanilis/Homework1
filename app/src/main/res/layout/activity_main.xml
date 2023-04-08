@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/accelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FAF0E8"
+        android:gravity="center"
+        android:text="Данные акселерометра"
+        android:textColor="#00796B"
+        android:textSize="17sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/gyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FAF0E8"
+        android:gravity="center"
+        android:text="Данные гироскопа"
+        android:textColor="#00796B"
+        android:textSize="17sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/rotation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FAF0E8"
+        android:gravity="center"
+        android:text="Данные наклона"
+        android:textColor="#00796B"
+        android:textSize="17sp"
+        android:textStyle="italic|bold" />
+    
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#FAF0E8">
+
+    <ImageView
+        android:id="@+id/levelBuild"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:background="#008388"
+        android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
